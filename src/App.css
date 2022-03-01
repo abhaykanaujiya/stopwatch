@@ -4,6 +4,13 @@
 }
 .App {
   align-items: center;
+  margin-top: 23%;
+  width: 30vw;
+  height: 27vh;
+  backdrop-filter: drop-shadow(2px 4px 6px rgb(86, 86, 238));
+  box-shadow: inset 0px 1px 6px 0px;
+  background-color: cadetblue;
+  border-radius: 0.5rem;
 }
 .buttons {
   display: flex;
@@ -11,12 +18,34 @@
   justify-content: center;
   margin-top: 20px;
 }
+button:hover {
+  background-color: rgb(175, 175, 175);
+}
 .timer-values {
   display: flex;
   justify-content: space-evenly;
   margin-top: 10px;
+  font-weight: 900;
+  font-size: xx-large;
 }
 .time-units {
   display: flex;
   flex-flow: row;
+  justify-content: space-around;
+  font-weight: 700;
+}
+.App-header {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+}
+button {
+  /* border: 1px solid; */
+  border: none;
+  border-radius: 2rem;
+  width: 62px;
+  height: 62px;
+  font-size: larger;
+  box-shadow: inset 0px 0px 20px 0px;
+  margin-right: 15px;
 }
