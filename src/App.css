@@ -1,11 +1,22 @@
 .timer {
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
 }
 .App {
   align-items: center;
 }
 .buttons {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+.timer-values {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.time-units {
   display: flex;
   flex-flow: row;
 }

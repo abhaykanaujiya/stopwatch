@@ -1,8 +1,3 @@
-export const start = (seconds, minutes) => {
-  return (dispatch) => {
-    dispatch({ type: "START", payload: "" });
-  };
-};
 export const handleMin = (min) => {
   return (dispatch) => {
     dispatch({ type: "MINUTES", payload: min });
@@ -15,9 +10,14 @@ export const handleSec = (sec) => {
     dispatch({ type: "SECOND", payload: sec });
   };
 };
-export const handleUpdateSec = (update) => {
-  console.log(update, "updatesec");
+
+export const handleResetTimer = () => {
   return (dispatch) => {
-    dispatch({ type: "UPDATE_SEC", payload: update });
+    dispatch({ type: "RESET" });
+  };
+};
+export const handleHours = (hours) => {
+  return (dispatch) => {
+    dispatch({ type: "HOURS", payload: hours });
   };
 };
