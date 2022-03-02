@@ -61,7 +61,7 @@ const App = (props) => {
       </div>
       <div className="buttons">
         <button onClick={!isRun ? () => handleStart() : () => handleStop()}>
-          {!isRun ? "Start" : "Stop"}
+          {!isRun ? "Start" : "Pause"}
         </button>
         <button onClick={handleReset}>Reset</button>
       </div>

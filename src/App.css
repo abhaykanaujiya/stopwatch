@@ -48,4 +48,5 @@ button {
   font-size: larger;
   box-shadow: inset 0px 0px 20px 0px;
   margin-right: 15px;
+  cursor: pointer;
 }
